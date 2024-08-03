@@ -17,7 +17,7 @@ export default function Home() {
             Hi.
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-              I'm Ammar Kheder
+              I am Ammar Kheder
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block font-extrabold">
