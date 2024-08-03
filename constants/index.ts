@@ -81,10 +81,12 @@ export const Socials = [
   {
     name: "Github",
     src: "/github.png",
+    link: "https://github.com/AmmarKheder"
   },
   {
     name: "X",
     src: "/x.png",
+    link: "https://x.com/ammar_gini"
   }
 ];
 export const Projects = [

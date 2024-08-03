@@ -18,20 +18,21 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           /> */}
         </div>
-        <h1 className={`${DancingScript.className} text-white text-5xl font-bold`}>
+        <h1 className={`${DancingScript.className} text-white md:text-5xl text-2xl font-bold`}>
           Ammar Kheder
         </h1>
       </div>
 
       <div className="flex flex-row gap-5 mb-2">
         {Socials.map((social) => (
-          <Image
-            key={social.name}
-            src={social.src}
-            alt={social.name}
-            width={28}
-            height={28}
-          />
+          <a href={social.link} key={social.name}>
+            <Image
+              src={social.src}
+              alt={social.name}
+              width={28}
+              height={28}
+            />
+          </a>
         ))}
       </div>
     </div>
