@@ -93,7 +93,7 @@ export default function Home() {
           alt="user"
           height={280}
           width={280}
-          className="relative md:right-[50%] right-[0%] md:top-[20%] top-[35%] rounded-full md:w-[280px] md:h-[280px] h-[190px] w-[190px]"
+          className="relative md:right-[55%] right-[0%] md:top-[20%] top-[35%] rounded-full md:w-[260px] md:h-[260px] h-[190px] w-[190px]"
         />
       </div>
 
