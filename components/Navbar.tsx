@@ -1,6 +1,9 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import { Dancing_Script } from "next/font/google";
+
+const DancingScript = Dancing_Script({ subsets: ['latin'] })
 
 const Navbar = () => {
   return (
@@ -15,11 +18,8 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
           /> */}
         </div>
-        <h1 className="text-white text-[15px] font-semibold">
-          contact@neogreatline.com{" "}
-          <span className="text-transparent bg-clip-text pl-9 bg-gradient-to-r from-purple-500 to-red-500">
-            Phone: +33 614299893{" "}
-          </span>
+        <h1 className={`${DancingScript.className} text-white text-5xl font-bold`}>
+          Ammar Kheder
         </h1>
       </div>
 

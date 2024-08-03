@@ -85,11 +85,7 @@ export const Socials = [
   {
     name: "X",
     src: "/x.png",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+  }
 ];
 export const Projects = [
   {
