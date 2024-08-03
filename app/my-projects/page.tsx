@@ -7,15 +7,15 @@ import React from 'react'
 const Page = () => {
   return (
     <div
-    style={{backgroundImage: "url(/mountains.jpg)"}}
-     className='w-screen h-screen flex items-center justify-center bg-center bg-cover'>
-      <div className='grid grid-cols-2 gap-5 max-w-[90%] max-h-[90%]'>
+      style={{ backgroundImage: "url(/mountains.jpg)" }}
+      className='w-full h-screen overflow-y-auto flex flex-col items-center justify-center bg-center bg-cover md:px-60 md:pb-[100px] md:pt-[250px] p-10 pt-[500px]'>
+      <div className='grid md:grid-cols-2 grid-cols-1 gap-5 w-full mx-auto'>
         {Projects.map((project, index) => (
           <ProjectCard
-              key={index}
-              title={project.title}
-              text={project.text}
-              image={project.src}
+            key={index}
+            title={project.title}
+            text={project.text}
+            image={project.src}
           />
         ))}
       </div>
