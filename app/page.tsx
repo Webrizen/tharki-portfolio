@@ -12,8 +12,8 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
+        <div className="pl-8 md:pl-40 pb-[500px] md:pb-20 flex flex-col gap-5 z-[10] md:max-w-[750px] w-full">
+          <h1 className="md:text-[50px] text-5xl text-white font-semibold">
             Hi.
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
+      <div className="absolute flex bottom-16 z-[20] right-5 flex-col md:hidden gap-5">
         <Link
           href="/my-skills"
           className="rounded-[20px] group bg-blue-500 px-5 py-3 text-lg text-white max-w-[200px]"
@@ -87,13 +87,13 @@ export default function Home() {
         <Image src="/cliff.webp" alt="cliff" width={480} height={480} />
       </div>
 
-      <div className="absolute top-0 right-0 z-[30]">
+      <div className="absolute md:top-[28%] top-[30%] right-[23%] z-[30]">
         <Image
           src="/user.jpeg"
           alt="user"
-          height={200}
-          width={200}
-          className="relative right-[550px] top-[200px] rounded-full"
+          height={280}
+          width={280}
+          className="relative md:right-[50%] right-[0%] md:top-[20%] top-[35%] rounded-full md:w-auto md:h-auto h-[200px] w-[200px]"
         />
       </div>
 
